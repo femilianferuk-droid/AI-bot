@@ -52,7 +52,7 @@ SMART_API_KEY: str = os.environ.get(
 SMART_BASE_URL: str = os.environ.get("SMART_BASE_URL", "https://api.smartapi.shop")
 
 MODELS: dict[str, str] = {
-    "deepseek": "deepseek-V4-flash",
+    "sonnet 5": "sonnet-5",
     "minimax": "minimax-m3",
 }
 DEFAULT_MODEL_KEY: str = "deepseek"
