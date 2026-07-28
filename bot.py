@@ -52,10 +52,10 @@ SMART_API_KEY: str = os.environ.get(
 SMART_BASE_URL: str = os.environ.get("SMART_BASE_URL", "https://api.smartapi.shop")
 
 MODELS: dict[str, str] = {
-    "sonnet 5": "sonnet-5",
+    "sonnet5": "sonnet-5",
     "minimax": "minimax-m3",
 }
-DEFAULT_MODEL_KEY: str = "deepseek"
+DEFAULT_MODEL_KEY: str = "sonnet5"
 MAX_HISTORY: int = 20
 MAX_TOKENS: int = 2048
 MAX_TG_LEN: int = 4000
